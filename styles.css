@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.left-content {
+    background-image: url("/assets/tim-mossholder-oTjFWTHDRZQ-unsplash.jpg");
+    width: 40vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.right-content {
+    background-color: orangered;
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company-info {
+    width: 100%;
+    height: 10%;
+    margin-top: 20vh;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    gap: .2em;
+    justify-content: center;
+    align-items: center;
+}
+ion-icon {
+    font-size: 30px;
+}
+.company-info h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: .2em;
+}
+.background-info {
+    font-size: .8rem;
+    position: fixed;
+    left: 20%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+.form-content {
+    height: 75%;
+    width: 100%;
+    background-color: yellow;
+    padding: 50px;
+}
+.form-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    width: 74ch;
+    max-width: 100%;
+}
+form {
+    background: white;
+    margin-top: 50px;
+}
+.inputs {
+    display: flex;
+    flex: 2;
+}
+
+label {
+    white-space: nowrap;
+}
